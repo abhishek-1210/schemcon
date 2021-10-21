@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header{
+    background-color: #0b0e1d;
+    position: static;
+}
+
+/*--------------------------------------------------------------
+# common to all sections
+--------------------------------------------------------------*/
+
+section .container{
+    margin-top: 1rem;
+}
+section .section-header{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+section .section-header h2{
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# registration
+--------------------------------------------------------------*/
+
+#registration .section-header p{
+    margin-bottom: 0;
+}
+#registration .fee-table p{
+    margin-bottom: 0;
+    text-align: center;
+}
+/*--------------------------------------------------------------
+# bank deatils
+--------------------------------------------------------------*/
+#bank-details{
+    margin-top: 5rem;
+}
+#bank-details .section-header p{
+    margin-top: 10px;
+    font-weight: 600;
+}
+#bank-details .bank-table{
+    width: 60%;
+    margin: auto;
+}
+#bank-details .bank-details .hr{
+    display: block;
+    width: 60%;
+    margin: auto;
+    background-color: #212529;
+    height: 2.5px;
+}
+.codes h5{
+    margin-top: 2rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #292950;
+    margin-bottom: 0;
+}
+.bank-codes{
+    text-align: center;
+    width: 15%;
+    margin:1rem auto;
+    font-weight: 600;
+}
