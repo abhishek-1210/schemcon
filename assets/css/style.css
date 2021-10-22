@@ -1456,3 +1456,38 @@ h6 {
   font-size: 13px;
   color: #ddd;
 }
+
+@media (max-width: 1030) {
+  .venue-img{
+    width: 370px;
+  }
+}
+@media (max-width: 600px) {
+  .venue-img{
+    width: 480px;
+  }
+}
+
+@media (max-width: 400px) {
+  .venue-img{
+    width: 286px;
+  }
+  .sidebar p{
+    margin: 45px 10px;
+  }
+  #venue , #gallery , #speakers , #about , #schedule , #supporters , #faq , #contact{
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .venue-img{
+    width: 230px;
+  }
+
+  #venue , #gallery , #speakers , #about , #schedule , #supporters , #faq , #contact{
+    padding: 20px 10px;
+  }
+}
+
+
