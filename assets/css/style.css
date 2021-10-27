@@ -473,9 +473,9 @@ h6 {
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom : 0 !important;
+  margin-bottom: 0 !important;
 }
-#hero h4{
+#hero h4 {
   color: #fff;
 }
 #hero h1 span {
@@ -743,8 +743,8 @@ h6 {
 #schedule {
   padding: 60px 0 60px 0;
 }
-#schedule h2{
-    font-size: 50px;
+#schedule h2 {
+  font-size: 50px;
 }
 #schedule .nav-tabs {
   text-align: center;
@@ -757,15 +757,15 @@ h6 {
   display: inline-block;
   margin-bottom: 0;
 }
-#schedule h3{
-    background-color: #18d26e;
-    color: #fff;
+#schedule h3 {
+  background-color: #18d26e;
+  color: #fff;
 }
-#schedule .nav-tabs a{
-    background-color: #18d26e;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
+#schedule .nav-tabs a {
+  background-color: #18d26e;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
 }
 @media (max-width: 991px) {
   #schedule .nav-tabs a {
@@ -782,8 +782,8 @@ h6 {
     padding: 8px 30px;
   }
 }
-#schedule ul{
-    list-style: none;
+#schedule ul {
+  list-style: none;
 }
 #schedule ul li {
   color: #18d26e;
@@ -806,28 +806,28 @@ h6 {
 #schedule .tab-pane {
   transition: ease-in-out 0.2s;
 }
-#contain{
-    margin: 20px 200px 20px 500px;
-    width: 400px;
+#contain {
+  margin: 20px 200px 20px 500px;
+  width: 400px;
 }
-#note{
-    width: 500px;
-    height: 40px;
-    margin-top: 40px;
+#note {
+  width: 500px;
+  height: 40px;
+  margin-top: 40px;
 }
-#note p{
-    text-align: center;
-    background-color: #18d26e;
-    border-radius: 20px;
-    font-size: 20px;
-    color: white;
+#note p {
+  text-align: center;
+  background-color: #18d26e;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
 }
-.sidebar{
-    text-align: justify;
-    padding: 0px;
+.sidebar {
+  text-align: justify;
+  padding: 0px;
 }
-.sidebar a{
-    font-weight: bold;
+.sidebar a {
+  font-weight: bold;
 }
 /*--------------------------------------------------------------
 # Venue Section
@@ -838,11 +838,11 @@ h6 {
 #venue .container-fluid {
   margin-bottom: 3px;
 }
-#venue h2{
-    font-size: 50px;
+#venue h2 {
+  font-size: 50px;
 }
-#venue p{
-    font-size:20px;
+#venue p {
+  font-size: 20px;
 }
 #venue .venue-map iframe {
   width: 100%;
@@ -893,55 +893,8 @@ h6 {
 #venue .venue-gallery:hover img {
   transform: scale(1.1);
 }
-#venue .venue-map:hover{
-    color: blue;
-}
-/*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
-#hotels {
-  padding: 60px 0;
-}
-#hotels .hotel {
-  border: 1px solid #e0e5fa;
-  background: #fff;
-  margin-bottom: 30px;
-}
-#hotels .hotel:hover .hotel-img img {
-  transform: scale(1.1);
-}
-#hotels .hotel-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-#hotels .hotel-img img {
-  transition: 0.3s ease-in-out;
-}
-#hotels h3 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding: 0 20px;
-}
-#hotels a {
-  color: #152b79;
-}
-#hotels a:hover {
-  color: #18d26e;
-}
-#hotels .stars {
-  padding: 0 20px;
-  margin-bottom: 5px;
-}
-#hotels .stars i {
-  color: #ffc31d;
-}
-#hotels p {
-  padding: 0 20px;
-  margin-bottom: 20px;
-  color: #060c22;
-  font-style: italic;
-  font-size: 15px;
+#venue .venue-map:hover {
+  color: blue;
 }
 
 /*--------------------------------------------------------------
@@ -1458,36 +1411,48 @@ h6 {
 }
 
 @media (max-width: 1030) {
-  .venue-img{
+  .venue-img {
     width: 370px;
   }
 }
 @media (max-width: 600px) {
-  .venue-img{
+  .venue-img {
     width: 480px;
   }
 }
 
 @media (max-width: 400px) {
-  .venue-img{
+  .venue-img {
     width: 286px;
   }
-  .sidebar p{
+  .sidebar p {
     margin: 45px 10px;
   }
-  #venue , #gallery , #speakers , #about , #schedule , #supporters , #faq , #contact{
+  #venue,
+  #gallery,
+  #speakers,
+  #about,
+  #schedule,
+  #supporters,
+  #faq,
+  #contact {
     padding: 20px 10px;
   }
 }
 
 @media (max-width: 300px) {
-  .venue-img{
+  .venue-img {
     width: 230px;
   }
 
-  #venue , #gallery , #speakers , #about , #schedule , #supporters , #faq , #contact{
+  #venue,
+  #gallery,
+  #speakers,
+  #about,
+  #schedule,
+  #supporters,
+  #faq,
+  #contact {
     padding: 20px 10px;
   }
 }
-
-
