@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    background-color: #0b0e1d;
+    position: static;
+}
+
+/*--------------------------------------------------------------
+# common to all sections
+--------------------------------------------------------------*/
+
+section .container {
+    margin-top: 1rem;
+}
+
+section .section-header {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+section .section-header h2 {
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# advisory committee
+--------------------------------------------------------------*/
+
+body{
+    padding-bottom: 2rem;
+}
+
+.section-header::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.header{
+    margin-top: 2rem;
+}
+
+table {
+    text-align: center;
+}
+.council-members{
+    font-size: 1.2rem;
+    color: rgba(20, 20, 200, 0.852);
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .header h2{
+        font-size: 30px !important;
+    }
+}
+
