@@ -8,6 +8,38 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.hide{
+  position : absolute;
+   display: hidden;
+}
+
+.modal{
+  height: 90vh !important;
+  width: 100vw !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+
+}
+
+.modal-dialog{
+  height: 100%;
+  width: 100% !important;
+  margin: auto !important;
+}
+.modal-content{
+  height: 100%;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.popup{
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background: #fff;
   color: #2f3138;
