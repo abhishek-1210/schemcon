@@ -788,10 +788,7 @@ h6 {
   display: inline-block;
   margin-bottom: 0;
 }
-#schedule h3 {
-  background-color: #18d26e;
-  color: #fff;
-}
+
 #schedule .nav-tabs a {
   background-color: #18d26e;
   color: white;
@@ -813,10 +810,10 @@ h6 {
     padding: 8px 30px;
   }
 }
-#schedule ul {
+#schedule .items {
   list-style: none;
 }
-#schedule ul li {
+#schedule .items li {
   color: #18d26e;
   font-weight: bold;
   text-align: center;
