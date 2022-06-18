@@ -47,10 +47,39 @@
   width: 100%;
 }
 
+
+#flash{
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  background-color: #0b1126;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#flash > img{
+  width: 30px;
+  height: 30px;
+}
+
+#flash > a{
+  color: white;
+}
+
+
+
+html{
+  overflow-x: hidden;
+}
 body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -175,10 +204,20 @@ h6 {
   height: 120px;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 50px;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+}
+
+@media (max-width : 900px){
+  #header{
+    height: 80px;
+  }
+#header.header-scrolled,
+#header.header-inner {
+  height: 80px !important;
+}
 }
 #header.header-scrolled,
 #header.header-inner {
@@ -222,7 +261,7 @@ h6 {
 }
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 40px;
   }
 }
 
@@ -400,7 +439,7 @@ h6 {
 }
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
+  overflow-y: scroll;
   top: 0;
   right: 0;
   left: 0;
@@ -408,6 +447,7 @@ h6 {
   background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
+
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
@@ -425,6 +465,9 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+}
+.navbar-mobile .row2{
+   top: 480px;
 }
 .navbar-mobile > ul > li {
   padding: 0;
@@ -507,30 +550,33 @@ h6 {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 170px;
   right: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  margin-top: 35px;
 }
 @media (max-width: 991px) {
   #hero .hero-container {
-    top: 70px;
+    top: 170px;
   }
 }
 #hero h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0 !important;
+  margin-top: 0px;
 }
 #hero h4 {
   color: #fff;
+  font-size: 15px;
 }
 #hero h1 span {
   color: #18d26e;
