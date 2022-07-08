@@ -837,6 +837,16 @@ h6 {
   margin-bottom: 10px;
 }
 
+/* carousel */
+.carousel-item > img{
+  width: 65% !important;
+  margin: auto;
+}
+
+.carousel-control-next-icon , .carousel-control-prev-icon{
+  background-color: #040919;
+}
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
