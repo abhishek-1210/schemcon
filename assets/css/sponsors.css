@@ -1,4 +1,4 @@
-.sponsor_video{
+.sponsor_video {
     height: calc(100vh - 90px);
     display: flex;
     align-items: center;
@@ -6,8 +6,20 @@
     background-color: #f6f7fd;
 }
 
-.video_tag{
-    width : 800px;
-    height : 500px;
+.video_tag {
+    width: 800px;
+    height: 500px;
     border: 5px solid #18d26e;
+}
+
+.sponsor-image {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.sponsor-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
